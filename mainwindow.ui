@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Liste des Points de Repère:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="pointsListWidget"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="calculerDistanceButton">
+      <property name="text">
+       <string>Calculer distance entre deux points de Repère</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ajouterPointRepereButton">
+      <property name="text">
+       <string>Ajouter un Point de Repère</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="retirerPointRepereButton">
+      <property name="text">
+       <string>Retirer un Point de Repère</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="mettreAJourPointRepereButton">
+      <property name="text">
+       <string>Mettre à Jour un Point de Repère</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="afficherCarteButton">
+      <property name="text">
+       <string>Affichage sur carte</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
